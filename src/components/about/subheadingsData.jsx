@@ -5,10 +5,8 @@ const subheadingsData = {
       content: (
         <>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Passionate about new challenges, I am fascinated by artificial intelligence, programming, as well as web and app design. Always learning new languages and technologies.
+            I am a professional committed to a job well done and customer satisfaction.
           </p>
         </>
       ),
@@ -20,10 +18,7 @@ const subheadingsData = {
       content: (
         <>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Electronics and computer studies at the Spanish military academy.
           </p>
         </>
       ),
@@ -33,10 +28,7 @@ const subheadingsData = {
       content: (
         <>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            Fullstackt software developer studies where I learned HTML, CSS, JavaScript, Python, Django, Flask and Postgresql at the University City of Dublin Professional Academy.
           </p>
         </>
       ),
@@ -44,14 +36,11 @@ const subheadingsData = {
   ],
   3: [
     {
-      title: "2000 IT Support",
+      title: "IT Support",
       content: (
         <>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            For several years I have worked as it support in the Spanish army, giving support, installing and maintaining computer and network systems.
           </p>
         </>
       ),
