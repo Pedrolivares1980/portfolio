@@ -16,7 +16,7 @@ const subheadingsData = {
   ],
   2: [
     {
-      title: "1998 Professional Education",
+      title: "2000 Professional Education",
       content: (
         <>
           <p>
@@ -29,7 +29,7 @@ const subheadingsData = {
       ),
     },
 		{
-      title: "2024 Professional Diploma",
+      title: "2024 UCD Professional Diploma",
       content: (
         <>
           <p>
@@ -44,7 +44,7 @@ const subheadingsData = {
   ],
   3: [
     {
-      title: "2000 IT",
+      title: "2000 IT Support",
       content: (
         <>
           <p>
