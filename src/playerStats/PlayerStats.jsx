@@ -4,13 +4,15 @@ import "../styles/playerStats.css";
 const PlayerStats = () => {
   return (
     <div id="playerStats">
-			<h1>PEDRO OLIVARES <span id="level">LEVEL 43</span></h1>
-			<div id="playerStats__lines" >
-				<span id="playerStats__lines__thick" ></span>
-				<span id="playerStats__lines__thin" ></span>
-			</div>
-			<h2>Fullstack Developer</h2>
-		</div>
+      <h1>
+        PEDRO OLIVARES
+      </h1>
+      <div id="playerStats__lines">
+        <span id="playerStats__lines__thick"></span>
+        <span id="playerStats__lines__thin"></span>
+      </div>
+      <h2>Fullstack Developer</h2>
+    </div>
   );
 };
 

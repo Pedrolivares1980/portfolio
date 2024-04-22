@@ -19,11 +19,6 @@ h2 {
 	font-size: 1rem;
 }
 
-#level {
-	margin: 0;
-	font-size: 0.9rem;
-}
-
 #playerStats__lines {
 	display: flex;
 	align-items: center;

@@ -1,9 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import ProjectsMenu from "../components/projects/ProjectsMenu";
 
 export default class Projects extends Component {
-	render() {
-		return (
-			<div>Projects</div>
-		)
-	}
+  render() {
+    return <>
+			<ProjectsMenu />
+		</>;
+  }
 }
