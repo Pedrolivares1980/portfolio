@@ -1,6 +1,7 @@
 import projectOne from "../../assets/project-1.png";
 import projectTwo from "../../assets/project-2.png";
 import projectThree from "../../assets/project-3.png";
+import projectFour from "../../assets/project-4.png";
 
 const projects = {
   1: {
@@ -41,6 +42,19 @@ const projects = {
     ),
     github: "https://github.com/Pedrolivares1980/recipe-blog",
 		demo: "https://recbook.onrender.com/",
+  },
+  4: {
+    title: "RecBook",
+    image: projectFour,
+    description: (
+      <>
+        <p>
+          Cinema seat reservation project for the final module of the UCD Fullstact Developer Diploma, using Django, Postgresql, API externa, JavaScript, Bootstrap and HTML.
+        </p>
+      </>
+    ),
+    github: "https://github.com/Pedrolivares1980/cinebook",
+		demo: "https://cinebook.onrender.com/",
   },
 };
 

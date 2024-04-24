@@ -5,7 +5,7 @@ const subheadingsData = {
       content: (
         <>
           <p>
-            Passionate about new challenges, I am fascinated by artificial intelligence, programming, as well as web and app design. Always learning new languages and technologies.
+            Passionate about new challenges, I am fascinated by artificial intelligence, programming and cibersecurity, as well as web and app design. Always learning new programming languages and technologies.
             I am a professional committed to a job well done and customer satisfaction.
           </p>
         </>
@@ -14,7 +14,7 @@ const subheadingsData = {
   ],
   2: [
     {
-      title: "2000 Professional Education",
+      title: "2000 - Professional Education",
       content: (
         <>
           <p>
@@ -24,7 +24,7 @@ const subheadingsData = {
       ),
     },
 		{
-      title: "2024 UCD Professional Diploma",
+      title: "2024 - UCD Professional Diploma",
       content: (
         <>
           <p>
@@ -40,7 +40,7 @@ const subheadingsData = {
       content: (
         <>
           <p>
-            For several years I have worked as it support in the Spanish army, giving support, installing and maintaining computer and network systems.
+            For several years I have worked as IT support in the Spanish army, giving support, installing and maintaining computer and network systems.
           </p>
         </>
       ),

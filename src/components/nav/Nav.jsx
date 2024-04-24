@@ -1,16 +1,17 @@
-import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import astronautHelmet from '../../assets/astronaut-helmet.png';
-import deadEye from '../../assets/dead-eye.png';
-import stack from '../../assets/stack.png';
-import envelope from '../../assets/envelope.png';
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
+import astronautHelmet from "../../assets/astronaut-helmet.png";
+import deadEye from "../../assets/dead-eye.png";
+import stack from "../../assets/stack.png";
+import envelope from "../../assets/envelope.png";
 import "../../styles/nav.css";
 
 
 export default function Nav() {
   const location = useLocation();
 
-  const getNavPositionClass = () =>{
+
+  const getNavPositionClass = () => {
     switch (location.pathname) {
       case "/":
         return "nav-about";
@@ -54,7 +55,7 @@ export default function Nav() {
     return (
       <Link to={to} className={linkClass}>
         <img src={imgSrc} alt={altText} />
-        {isCurrent && <h1 className='page-title'>{pageTitle}</h1>}
+        {isCurrent && <h1 className="page-title">{pageTitle}</h1>}
       </Link>
     );
   };
@@ -67,24 +68,9 @@ export default function Nav() {
         "astronaut helmet icon",
         "nav-about"
       )}
-      {renderNavLink(
-        "/skills",
-        deadEye,
-        "deadEye icon",
-        "nav-skills"
-      )}
-      {renderNavLink(
-        "/projects",
-        stack,
-        "stack icon",
-        "nav-projects"
-      )}
-      {renderNavLink(
-        "/contact",
-        envelope,
-        "envelope icon",
-        "nav-contact"
-      )}
+      {renderNavLink("/skills", deadEye, "deadEye icon", "nav-skills")}
+      {renderNavLink("/projects", stack, "stack icon", "nav-projects")}
+      {renderNavLink("/contact", envelope, "envelope icon", "nav-contact")}
     </nav>
   );
 }
