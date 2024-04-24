@@ -44,7 +44,7 @@ const projects = {
 		demo: "https://recbook.onrender.com/",
   },
   4: {
-    title: "RecBook",
+    title: "MovieTicket",
     image: projectFour,
     description: (
       <>
