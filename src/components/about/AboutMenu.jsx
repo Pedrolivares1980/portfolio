@@ -5,6 +5,7 @@ import subheadingsData from "./subheadingsData";
 import personalIcon from "../../assets/moebius-triangle.png";
 import educationIcon from "../../assets/upgrade.png";
 import careerIcon from "../../assets/triple-corn.png";
+import resume from "../../assets/pdfs/Pedro Olivares Fernandez Resume.pdf"
 
 export default class AboutMenu extends Component {
   constructor(props) {
@@ -26,6 +27,10 @@ export default class AboutMenu extends Component {
     this.setState({
       activeSubheading: subheading,
     });
+  };
+
+  handleDownloadResume = () => {
+    window.open(resume, "_blank");
   };
 
   render() {
@@ -68,6 +73,13 @@ export default class AboutMenu extends Component {
               menuItem={activeMenuItem}
             />
           ))}
+          <div className="resume-container">
+          {activeMenuItem === 1 && ( 
+            <button className="resume" onClick={this.handleDownloadResume}>
+              Download Resume
+            </button>
+          )}
+          </div>
         </div>
       </>
     );
